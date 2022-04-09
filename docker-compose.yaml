@@ -19,7 +19,7 @@ services:
       - "3307:3000"
     command: npm run start:prod
   app:
-    build: ../medium-app/
+    build: ../raro-academy-medium-api/
     env_file:
       - .env
     environment:
